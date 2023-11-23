@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T12:09:53 IST" name="Surefire suite" finished-at="2023-11-23T12:09:53 IST" duration-ms="87">
+  <suite started-at="2023-11-23T18:26:58 IST" name="Surefire suite" finished-at="2023-11-23T18:26:58 IST" duration-ms="77">
     <groups>
     </groups>
-    <test started-at="2023-11-23T12:09:53 IST" name="Surefire test" finished-at="2023-11-23T12:09:53 IST" duration-ms="87">
+    <test started-at="2023-11-23T18:26:58 IST" name="Surefire test" finished-at="2023-11-23T18:26:58 IST" duration-ms="77">
       <class name="com.testing.insure_me_selenium_testing.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2023-11-23T12:09:53 IST" name="shouldAnswerWithTrue" finished-at="2023-11-23T12:09:53 IST" duration-ms="13" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()" started-at="2023-11-23T18:26:58 IST" name="shouldAnswerWithTrue" finished-at="2023-11-23T18:26:58 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
