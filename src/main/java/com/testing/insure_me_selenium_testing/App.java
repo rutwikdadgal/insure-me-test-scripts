@@ -19,11 +19,8 @@ public class App
     public static void main( String[] args ) throws InterruptedException, IOException
     {
         //System.setProperty("webdriver.chrome.driver", "C:/softwares/chromedriver-win64/chromedriver-win64/chromedriver.exe");
-    	//WebDriverManager.chromedriver().setup();
-    	//WebDriverManager.chromedriver().version("119.0.6045.160").setup();
-    	WebDriverManager.chromedriver().clearCache();
     	WebDriverManager.chromedriver().setup();
-
+    	//WebDriverManager.chromedriver().version("119.0.6045.160").setup();
     	//WebDriverManager.chromedriver().setDriverMirrorURL("http://chromedriver.storage.googleapis.com/").setup();
 
     	
