@@ -12,18 +12,26 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class App 
 {
     public static void main( String[] args ) throws InterruptedException, IOException
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\softwares\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/softwares/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+    	//WebDriverManager.chromedriver().setup();
+    	//WebDriverManager.chromedriver().version("119.0.6045.105").setup();
+    	//WebDriverManager.chromedriver().setDriverMirrorURL("http://chromedriver.storage.googleapis.com/").setup();
+
+    	
+
         System.out.println("script started");
         
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--headless");
+        //chromeOptions.addArguments("--headless");
         WebDriver driver = new ChromeDriver(chromeOptions);
         System.out.println("opening url");
-        driver.get("http://3.110.32.93:8085/contact.html");
+        driver.get("http://localhost:8081/contact.html");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         
         System.out.println("Entering details");
