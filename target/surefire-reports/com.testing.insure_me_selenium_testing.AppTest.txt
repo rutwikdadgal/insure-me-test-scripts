@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.testing.insure_me_selenium_testing.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.62 s - in com.testing.insure_me_selenium_testing.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.899 s - in com.testing.insure_me_selenium_testing.AppTest

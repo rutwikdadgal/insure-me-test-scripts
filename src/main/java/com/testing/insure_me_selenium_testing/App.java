@@ -42,7 +42,7 @@ public class App
          
         WebDriver driver = new ChromeDriver((chromeOptions));
         System.out.println("opening url");
-        driver.get("http://43.204.115.220:8088/contact.html");
+        driver.get("http://43.204.116.156:8088/contact.html");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         
         System.out.println("Entering details");
