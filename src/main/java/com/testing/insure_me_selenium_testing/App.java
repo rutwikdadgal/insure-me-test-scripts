@@ -23,6 +23,8 @@ public class App
         //System.setProperty("webdriver.chrome.driver", "C:/softwares/chromedriver-win64/chromedriver-win64/chromedriver.exe");
     	//WebDriverManager.chromedriver().setup();
     	//WebDriverManager.chromedriver().setup();
+    	//System.setProperty("webdriver.chrome.whitelistedIps", "");
+
     	WebDriverManager.chromedriver().setup();
         //WebDriverManager.chromedriver().version("latest").driverRepositoryUrl(new URL("http://chromedriver.storage.googleapis.com/")).setup();
 
@@ -37,9 +39,10 @@ public class App
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
+         
         WebDriver driver = new ChromeDriver((chromeOptions));
         System.out.println("opening url");
-        driver.get("http://localhost:8081/contact.html");
+        driver.get("http://43.204.115.220:8085/contact.html");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
         
         System.out.println("Entering details");
@@ -66,7 +69,5 @@ public class App
         Thread.sleep(3000);
         
         driver.quit();
-        
-        
     }
 }
